@@ -5,7 +5,8 @@ import { Loading } from '@components/Loading';
 
 import theme from './src/theme';
 
-import { Groups } from '@pages/Groups';
+//import { Groups } from '@pages/Groups';
+import { NewGroup } from '@pages/NewGroup';
 import { StatusBar } from 'react-native';
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
       backgroundColor="transparent"
       translucent
       />
-      { fontsLoaded ? <Groups/> : <Loading />}
+      { fontsLoaded ? <NewGroup/> : <Loading />}
     </ThemeProvider>
   );
 }
