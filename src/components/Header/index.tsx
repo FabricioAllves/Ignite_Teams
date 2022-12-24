@@ -11,7 +11,7 @@ export function Header({ showBackButton = false }: Props) {
 
   const navigation = useNavigation()
 
-  function handleGoBack(){
+  function handleGoBack() {
     navigation.navigate('groups')
   }
 
@@ -24,7 +24,9 @@ export function Header({ showBackButton = false }: Props) {
         </BackButton>
       }
 
-      <Logo source={logoImg} />
+
+        <Logo source={logoImg} />
+
     </Container>
   )
 }

@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { FlatList } from 'react-native'
-import { useNavigation } from '@react-navigation/native' 
+import { useNavigation, useFocusEffect } from '@react-navigation/native' 
+import { groupsGetAll } from '@storage/group/groupsGetAll'
 
 import { Header } from '@components/Header'
 import { Highlight } from '@components/Highlight'
@@ -19,6 +20,25 @@ export function Groups() {
     navigation.navigate('new')
   }
 
+  async function fetchGroups(){
+    try{
+      const data = await groupsGetAll();
+      setGroups(data)
+    }catch(error){
+      console.log(error)
+    }
+  }
+
+  function handleOpenGroup(group: string){
+    navigation.navigate('players', {group})
+  }
+
+  useFocusEffect(useCallback(() => {
+    console.log("executou")
+    fetchGroups()
+  },[]))
+
+
   return (
     <Container>
       <Header />
@@ -33,7 +53,9 @@ export function Groups() {
         keyExtractor={item => item}
         renderItem={({ item }) => (
           <GroupCard
-            title={item} />
+            title={item}
+            onPress={() => handleOpenGroup(item)}
+            />
         )}
         contentContainerStyle={groups.length === 0 && { flex: 1 }}
         ListEmptyComponent={() => (
