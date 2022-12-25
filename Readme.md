@@ -11,7 +11,7 @@
 
 
 ## 💻 Projeto
-to.do é um App para anotar, editar e deletar tarefas.
+Aplicativo para fazer organizaçao separando por turma podem criar varios grupos e dentro criar players/usuarios alocando eles em salas/times diferentes.
 
 
 ## :hammer_and_wrench: Features 
