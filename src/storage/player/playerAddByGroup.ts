@@ -8,13 +8,13 @@ import { PlayerStorageDTO } from './PlayerStorageDTO'
 export async function playerAddByGroup(newPlayer: PlayerStorageDTO, group: string){
   try{
     const storedPlayers = await playersGetByGroup(group)
-
+    
     const playerAlreadExists = storedPlayers.filter(player => player.name === newPlayer.name)
-
+    
     if(playerAlreadExists.length > 0){
       throw new AppError('Essa pessoas já está adicionada em um time aqui.')
     }
-
+    
     const storage = JSON.stringify([...storedPlayers, newPlayer])
 
     await AsyncStorage.setItem(`${PLAYER_COLLECTION}-${group}`, storage)
