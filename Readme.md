@@ -11,7 +11,7 @@
 
 
 ## 💻 Projeto
-Aplicativo para fazer organizaçao separando por turma podem criar varios grupos e dentro criar players/usuarios alocando eles em salas/times diferentes.
+Aplicativo para fazer organizaçao, separando por turma podendo criar varios grupos e dentro criar players/usuarios alocando cada um em salas/times diferentes.
 
 
 ## :hammer_and_wrench: Features 
