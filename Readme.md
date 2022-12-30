@@ -34,7 +34,7 @@ Aplicativo para fazer organizaçao, separando por turma podendo criar varios gru
 - Fazer uma estrutura de projeto usando os conceitos de **Design System**.
 - Utilizaçao do **Path Mapping** que faz com que as importaçoes no projeto fique de maneira mais clean visualmente e mais prático.
 - Neste projeto entendi melhor como podemos tirar proveito do **typescript** de forma que traga mais produtividade na hora de codar e tambem a utilizar a biblioteca do **Styled-components** para estilizar nosso aplicativo.
-- Utilização do **AsyncStorage** para fazermos o armazenamento dos dados usuário.
+- Utilização do **AsyncStorage** para fazermos o armazenamento dos dados do usuário.
 
 
 ## ⚙️ Executando o projeto
