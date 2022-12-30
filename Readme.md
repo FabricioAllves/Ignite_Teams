@@ -5,7 +5,7 @@
 </p>
 
 
-
+<h1 align="center">Ignite_Teams</h1>
 
 <img alt="gif-cell" src="https://github.com/fabricio-26/Ignite_Teams/blob/main/src/assets/ReviewReadme.png">
 
