@@ -49,15 +49,14 @@ $ git clone https://github.com/FabricioAllves/Ignite_Teams.git
 # Entre no repositório
 $ cd Ignite_Teams
 
-
+# Com NPM
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação
 $ npm start
 
-ou
-
+# Com YARN
 # Instale as dependências
 $ yarn install
 
