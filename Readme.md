@@ -41,20 +41,33 @@ Aplicativo para fazer organizaçao, separando por turma podendo criar varios gru
 Com o repositorio já clonado em sua maquina e gerenciador de pacotes de sua preferência, **yarn** ou **npm**, instale as dependências do projeto e inicie o mesmo com os comando abaixo: 
 
 
-```cl
-yarn install
-```
-```cl
-yarn start
-```
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/FabricioAllves/Ignite_Teams.git
+
+# Entre no repositório
+$ cd Ignite_Teams
+
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm start
+
 ou
 
-```cl
-npm install
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação
+$ yarn start
 ```
-```cl
-npm start
-```
+
+
+
+
 
 
 ## 📄 Licença
