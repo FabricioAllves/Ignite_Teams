@@ -11,32 +11,52 @@
 
 
 ## 💻 Projeto
+<!-- OQUE E´? -->
 Aplicativo para fazer organizaçao, separando por turma podendo criar varios grupos e dentro criar players/usuarios alocando cada um em salas/times diferentes.
 
 
+<!-- QUAIS TECNOLOGIA USEI? -->
+## ✨ Tecnologias e bibliotecas utilizadas
+
+- [ ] React Native - Expo
+- [ ] Styled-components
+- [ ] Typescript
+
+
+
+<!-- QUAL É O PROBLEMA QUE ESSE PROJETO RESOLVE E OQUE ELE FAZ? -->
 ## :hammer_and_wrench: Features 
 
 - [ ] Criar turma / Deletar turma e/ou Players 
 
 
-## ✨ Tecnologias
+## Desafios e aprendizados durante o desenvolvimento
+- Fazer uma estrutura de projeto usando os conceitos de **Design System**.
+- Utilizaçao do **Path Mapping** que faz com que as importaçoes no projeto fique de maneira mais clean visualmente e mais fácil.
+- Neste projeto entendi melhor como podemos tirar proveito do **typescript** de forma que traga mais produtividade na hora de codar e tambem a usatilizar a biblioteca do **Styled-components** para estilizar nosso aplicativo.
+- Utilização do **Local Storage** para fazermos o armazenamento dos dados usuário.
 
-- [ ] React Native
-- [ ] Styled-components
-- [ ] Typescript
 
 ## Executando o projeto
 
-Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
-Em seguida, inicie o projeto.
+Com o **yarn** ou **npm** para instalar as dependências do projeto e iniciar logo em seguida, utilize:
 
+
+```cl
+yarn install
+```
 ```cl
 yarn start
 ```
-(se estiver no Linux e for rodar no android)
+ou
+
 ```cl
-yarn android
+npm install
 ```
+```cl
+npm start
+```
+
 
 ## 📄 Licença
 
@@ -46,6 +66,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 <div align="center">
   <small>Desenvolvido por Fabricio Henrique</small>
-
-  <!-- [![Linkedin Badge](https://img.shields.io/badge/-Thiago%20Silva-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/)](https://www.linkedin.com/in/thiago-furtado-silva/)  -->
 </div>
