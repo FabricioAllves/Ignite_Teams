@@ -39,7 +39,7 @@ Aplicativo para fazer organizaçao, separando por turma podendo criar varios gru
 
 ## Executando o projeto
 
-Com o gerenciador de pacotes de sua preferência **yarn** ou **npm**, instale as dependências do projeto com os comando abaixo: 
+Com o gerenciador de pacotes de sua preferência **yarn** ou **npm**, instale as dependências do projeto e inicie o mesmo com os comando abaixo: 
 
 
 ```cl
