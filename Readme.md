@@ -30,14 +30,14 @@ Aplicativo para fazer organizaçao, separando por turma podendo criar varios gru
 - [ ] Criar turma / Deletar turma e/ou Players 
 
 
-## Desafios e aprendizados durante o desenvolvimento
+## ♨️ Desafios e aprendizados durante o desenvolvimento
 - Fazer uma estrutura de projeto usando os conceitos de **Design System**.
 - Utilizaçao do **Path Mapping** que faz com que as importaçoes no projeto fique de maneira mais clean visualmente e mais prático.
 - Neste projeto entendi melhor como podemos tirar proveito do **typescript** de forma que traga mais produtividade na hora de codar e tambem a usatilizar a biblioteca do **Styled-components** para estilizar nosso aplicativo.
 - Utilização do **Local Storage** para fazermos o armazenamento dos dados usuário.
 
 
-## Executando o projeto
+## ⚙️ Executando o projeto
 
 Com o gerenciador de pacotes de sua preferência **yarn** ou **npm**, instale as dependências do projeto e inicie o mesmo com os comando abaixo: 
 
