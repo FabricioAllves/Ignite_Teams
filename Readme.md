@@ -38,7 +38,9 @@ Aplicativo para fazer organizaçao, separando por turma podendo criar varios gru
 
 
 ## ⚙️ Executando o projeto
-Com o repositorio já clonado em sua maquina e gerenciador de pacotes de sua preferência, **yarn** ou **npm**, instale as dependências do projeto e inicie o mesmo com os comando abaixo: 
+Pré requisitos para rodar o projeto:
+- Node.js (LTS) instalado na maquina
+- Gerenciador de pacote NPM ou YARN
 
 
 
