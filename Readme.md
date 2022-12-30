@@ -27,7 +27,9 @@ Aplicativo para fazer organizaçao, separando por turma podendo criar varios gru
 <!-- QUAL É O PROBLEMA QUE ESSE PROJETO RESOLVE E OQUE ELE FAZ? -->
 ## :hammer_and_wrench: Features 
 
-- [ ] Criar turma / Deletar turma e/ou Players 
+- [ ] Criar turma
+- [ ] Deletar truma
+- [ ] Deletar usuarios
 
 
 ## ♨️ Desafios e aprendizados durante o desenvolvimento
